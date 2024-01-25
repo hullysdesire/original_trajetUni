@@ -8,13 +8,13 @@ const InscriptionConducteur = () => {
           <div className="w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: "url('src/assets/Green Simple Company Negative Space Car Logo.png')" }}>
             <h1 className="text-white text-3xl mb-3"></h1>
             <div>
-              <p className="text-white"> <a href="#" className="text-white-500 font-semibold">Learn more</a></p>
+              <p className="text-white"> <a href="#" className="text-white-500 font-semibold"></a></p>
             </div>
           </div>
           <div className="w-full lg:w-1/2 py-16 px-12">
             <h1 className="text-3xl mb-4">Inscription conducteur</h1>
             <p className="mb-4">
-              Créer un compte en quelque minutes
+              
             </p>
             <form action="#">
               <div className="grid grid-cols-2 gap-5">
