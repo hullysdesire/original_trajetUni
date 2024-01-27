@@ -1,6 +1,3 @@
-// import React from 'react';
-
-// import React from 'react';
 
 const CarteDashboard = () => {
   return (
@@ -23,11 +20,20 @@ const CarteDashboard = () => {
         </div>
         <div className="card-body">Vos Trajets</div>
         <div className="icone border border-black rounded p-1 ml-2">
-          <a href=""><img src="src/assets/fleche-pointant-vers-la-droite.png" alt="" className="w-6 h-6" /></a>
+          <a href="/Trajets"><img src="src/assets/fleche-pointant-vers-la-droite.png" alt="" className="w-6 h-6" /></a>
         </div>
       </div>
+       {/* Troisième carte */}
+      <div className="flex items-center justify-between border rounded p-2 mb-4 mt-6">
+        <div className="icone border border-black rounded p-1 mr-2">
+          <a href=""><img src="src/assets/status-quo.png" alt="" className="w-6 h-6" /></a>
+        </div>
+        <div className="card-body">status des réservations</div>
+        <div className="icone border border-black rounded p-1 ml-2">
+          <a href="/Trajets"><img src="src/assets/fleche-pointant-vers-la-droite.png" alt="" className="w-6 h-6" /></a>
+        </div>
 
-   
+      </div>
     </div>
   );
 };
