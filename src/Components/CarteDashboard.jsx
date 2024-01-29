@@ -30,7 +30,7 @@ const CarteDashboard = () => {
         </div>
         <div className="card-body">status des réservations</div>
         <div className="icone border border-black rounded p-1 ml-2">
-          <a href="/Trajets"><img src="src/assets/fleche-pointant-vers-la-droite.png" alt="" className="w-6 h-6" /></a>
+          <a href="/StatusReservation"><img src="src/assets/fleche-pointant-vers-la-droite.png" alt="" className="w-6 h-6" /></a>
         </div>
 
       </div>

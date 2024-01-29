@@ -16,12 +16,12 @@ export default function Notification(){
             </div> 
 
            {/* Carte de notification  */}
-            <div className="flex rounded-lg bg-white p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 gap-5">
+            <div className="flex rounded-lg bg-white p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 gap-5" style={{ background: 'linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593)' }}>
                 <div>
-                    <img src="src/assets/grace.jpg" alt="" className="border-2 w-20 h-20  m-auto rounded-full mt-5" />
+                    <img src="src/assets/grace.jpg" alt="" className="border-2 w-64 m-auto rounded-full mt-5" />
                 </div>
                 <div>
-                <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200 text-white">
                 Grace Coriana vient de faire une réservation sur votre trajet . Veuillez s’il vous plait répondre !
                 </p>
                 <PopopConfirm/>

@@ -8,6 +8,7 @@ import Erreur from './Pages/Erreur'
 import NewTrajet from './Components/NewTrajet'
 import Trajets from './Pages/Trajets'
 import StatusReservation from './Pages/StatusReservation'
+import Atterissage from './Pages/Atterissage'
 
 
 
@@ -19,7 +20,7 @@ export default function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route index element={<Connexion />} />
+          <Route index element={<Atterissage />} />
           <Route path="/Connexion" element={<Connexion />} />
           <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/Notifications" element={<Notifications />} />
@@ -28,7 +29,7 @@ export default function App() {
           <Route path="/NewTrajet" element={<NewTrajet />} />
           <Route path= "/Trajets"   element={<Trajets/>} />
           <Route path= "/StatusReservation"   element={<StatusReservation/>} />
-
+          <Route path= "/Atterissage" element={<Atterissage/>} />
          
           <Route path= "*" element={<Erreur />} />
         </Routes>

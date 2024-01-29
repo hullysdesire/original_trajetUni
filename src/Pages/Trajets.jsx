@@ -13,7 +13,7 @@ export default function Trajets(){
             <Search/>
 
             <img src="src/assets/Free Vector _ Man standing by car with cityscape in background (1).jpg" alt="" className="m-auto" />
-            <p className="m-auto mt-5 mb-5">Vous n'avez enregister aucun trajet</p>
+            <p className="m-auto mt-5 mb-5 text-center">Vous n'avez enregister aucun trajet</p>
 
             <div>
                 <a href="/NewTrajet"><button

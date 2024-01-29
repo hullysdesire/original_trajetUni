@@ -2,21 +2,21 @@
 
 function InscriptionConducteur (){
   return (
-    <div className="min-h-screen py-40" style={{ backgroundImage: 'linear-gradient(115deg, #ee7724, #d8363a, #dd3675, #b44593)' }}>
-      <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden">
-          <div className="w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: "url('src/assets/Green Simple Company Negative Space Car Logo.png')" }}>
+    <div className=" " style={{ backgroundImage: 'linear-gradient(115deg, #ee7724, #d8363a, #dd3675, #b44593)' }}>
+      {/* <div className="container w-96 h-1 "> */}
+      <div className="flex flex-col lg:flex-row w-full bg-white  mx-auto shadow-lg "> 
+          <div className="w-full lg:w-1/2  flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: "url('src/assets/Green Simple Company Negative Space Car Logo.png')" }}>
             <h1 className="text-white text-3xl mb-3"></h1>
-            <div>
+            {/* <div>
               <p className="text-white"> <a href="#" className="text-white-500 font-semibold"></a></p>
-            </div>
+            </div> */}
           </div>
-          <div className="w-full lg:w-1/2 py-16 px-12">
-            <h1 className="text-3xl mb-4">Inscription conducteur</h1>
+          <div className="w-full lg:w-1/2 py-14 px-1">
+            <h1 className="text-3xl mb-4 text-center font-bold">Inscription conducteur</h1>
             <p className="mb-4">
               
             </p>
-            <form action="#">
+            <form className="" action="#">
               <div className="grid grid-cols-2 gap-5">
                 <input type="text" placeholder="Nom" className="border border-gray-400 py-1 px-2" />
                 <input type="text" placeholder="Prenom" className="border border-gray-400 py-1 px-2" />
@@ -53,7 +53,7 @@ function InscriptionConducteur (){
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 
