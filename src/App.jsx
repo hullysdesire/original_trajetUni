@@ -10,6 +10,10 @@ import Trajets from './Pages/Trajets'
 import StatusReservation from './Pages/StatusReservation'
 import Atterissage from './Pages/Atterissage'
 
+import ConnexionPass from './Pages/ConnexionPass'
+import InscriptionPass from './Pages/InscriptionPass'
+
+
 
 
 
@@ -29,6 +33,10 @@ export default function App() {
           <Route path="/NewTrajet" element={<NewTrajet />} />
           <Route path= "/Trajets"   element={<Trajets/>} />
           <Route path= "/StatusReservation"   element={<StatusReservation/>} />
+
+
+          <Route path= "/ConnexionPass"  element={<ConnexionPass/>} />
+          <Route path= "/InscriptionPass"  element={<InscriptionPass/>} />
           <Route path= "/Atterissage" element={<Atterissage/>} />
          
           <Route path= "*" element={<Erreur />} />
